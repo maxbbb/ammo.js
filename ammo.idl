@@ -646,6 +646,8 @@ btGeneric6DofSpringConstraint implements btGeneric6DofConstraint;
 
 interface btSequentialImpulseConstraintSolver {
   void btSequentialImpulseConstraintSolver();
+  long getRandSeed();
+  void setRandSeed(long seed);
 };
 
 interface btConeTwistConstraint {
